@@ -1,0 +1,114 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.container.top {
+    padding-top: 40px;
+}
+
+.cta {
+    margin-top: 20px;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.btn-default {
+    background-image: none;
+    background-repeat: no-repeat;
+    border-color: white !important;
+    box-shadow: none;
+    font-weight: 300;
+    -webkit-box-shadow: none;
+}
+
+.btn {
+    color: #5bc0de;
+    font-size: 21px;
+    margin-top: -8px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.btn-primary {
+    color: white;
+    margin-top: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.get-matches {
+    margin-top: 0;
+}
+
+p {
+    display: inline-block;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 27.4px;
+}
+
+.promise-control {
+    width: 25%;
+}
+
+.attach-assignments {
+    margin-top: 20px;
+}
+
+.work-completed {
+    margin-top: 20px;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.modal-content {
+    padding: 40px;
+}
+
+.subject-search {
+    height: 44px;
+    width: 400px !important;
+}
+
+.modal-content h2:first-child {
+    margin-bottom: 40px;
+}
+
+.navbar-form {
+    padding-top: 40px;
+}
+
+.select2-container {
+    margin-top: -7px;
+}
+
+.select2-container--default .select2-selection--single {
+    border: none;
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #5bc0de;
+}
+
+.select2-container--open .select2-dropdown--below {
+    width: 194px !important;
+    margin-top: 11px;
+    border-top: 1px solid #aaa;
+}
+
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+    border-color: transparent transparent #5bc0de transparent;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #5bc0de transparent transparent transparent;
+}

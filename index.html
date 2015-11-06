@@ -1,0 +1,257 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Chegg Tutors</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Include Twitter Bootstrap and jQuery: -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+        <script type="text/javascript" src="js/vendor/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
+
+        <!-- Include the plugin's CSS and JS: -->
+        <script type="text/javascript" src="js/vendor/bootstrap-multiselect.js"></script>
+        <link rel="stylesheet" href="css/bootstrap-multiselect.css" type="text/css"/>
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css" rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js"></script>
+
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+        <![endif]-->
+    </head>
+    <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Chegg Tutors</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+      <div class="container top">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Improve your grades.<br />
+              Connect with a top tutor online.
+            </h1>
+            <!-- Large modal -->
+            <form class="navbar-form navbar-left" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control subject-search" placeholder="What subject can we help you with? Try 'Algebra'">
+              </div>
+              <button type="button" class="btn btn-primary get-matches" data-toggle="modal" data-target=".bs-example-modal-lg">Get tutor matches</button>
+            </form>
+
+            <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                   <h2>Please let tutors know how they can help</h2>
+                   <p>Hey tutors! I'm in</p>
+
+                   <span class="dropdown">
+                     <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                       undergrad
+                       <span class="caret"></span>
+                     </button>
+                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                       <li><a href="#">high school</a></li>
+                       <li><a href="#">grad school</a></li>
+                       <li><a href="#">middle school</a></li>
+                       <li><a href="#">school of life</a></li>
+                     </ul>
+                   </span>
+
+                   <p>taking</p>
+
+                   <select class="js-example-basic-single">
+                     <option value="AL">Algebra</option>
+                     <option value="WY">Biology</option>
+                     <option value="WY">Business</option>
+                     <option value="WY">Computer Science</option>
+                     <option value="WY">Spanish</option>
+                   </select>
+
+                   <p>at</p>
+
+                   <select class="js-example-basic-single">
+                     <option value="AL">Iowa State University</option>
+                     <option value="WY">Florida State University</option>
+                     <option value="WY">Harvard University</option>
+                     <option value="WY">The University of North Carolina</option>
+                     <option value="WY">The University of California Los Angeles</option>
+                   </select>
+
+                   <p>and I need help with a</p>
+
+                   <span class="dropdown">
+                     <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                       homework assignment
+                       <span class="caret"></span>
+                     </button>
+                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                      <li><a href="#">exam</a></li>
+                       <li><a href="#">lab</a></li>
+                       <li><a href="#">problem set</a></li>
+                       <li><a href="#">essay</a></li>
+                       <li><a href="#">midterms</a></li>
+                       <li><a href="#">finals</a></li>
+                     </ul>
+                   </span>.
+
+
+                   <p>I'd like help starting as soon as</p>
+
+                   <span class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                      2:00pm
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                      <li><a href="#">3:00pm</a></li>
+                      <li><a href="#">4:00pm</a></li>
+                      <li><a href="#">5:00pm</a></li>
+                      <li><a href="#">6:00pm</a></li>
+                      <li><a href="#">7:00pm</a></li>
+                      <li><a href="#">8:00pm</a></li>
+                    </ul>
+                  </span>
+
+                   <p>, if possible, and the latest I need help is</p>
+
+                   <span class="dropdown">
+                     <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                       6:00pm
+                       <span class="caret"></span>
+                     </button>
+                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                       <li><a href="#">7:00pm</a></li>
+                       <li><a href="#">8:00pm</a></li>
+                       <li><a href="#">9:00pm</a></li>
+                       <li><a href="#">10:00pm</a></li>
+                       <li><a href="#">11:00pm</a></li>
+                       <li><a href="#">12:00pm</a></li>
+                     </ul>
+                   </span>
+
+                   <p>I'd like to work with a</p>
+
+                   <span class="dropdown">
+                     <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                       female
+                       <span class="caret"></span>
+                     </button>
+                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                       <li><a href="#">male</a></li>
+                     </ul>
+                   </span>
+
+                   <span class="dropdown">
+                     <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                       college student
+                       <span class="caret"></span>
+                     </button>
+                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                       <li><a href="#">recent grad</a></li>
+                       <li><a href="#">professional tutor</a></li>
+                     </ul>
+                   </span>
+
+                   <p>for</p>
+
+                   <span class="dropdown">
+                     <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                       one lesson
+                       <span class="caret"></span>
+                     </button>
+                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                       <li><a href="#">recurring lessons</a></li>
+                     </ul>
+                   </span>
+
+                   <p>with the goal of</p>
+
+                   <span class="dropdown">
+                     <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                       understanding concepts
+                       <span class="caret"></span>
+                     </button>
+                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                       <li><a href="#">improving grades</a></li>
+                       <li><a href="#">getting ahead</a></li>
+                       <li><a href="#">increasing confidence</a></li>
+                       <li><a href="#">test preparation</a></li>
+                       <li><a href="#">learning a new skill</a></li>
+                     </ul>
+                   </span>
+
+                   <p>. I</p>
+
+                   <span class="dropdown">
+                     <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                       have
+                       <span class="caret"></span>
+                     </button>
+                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                       <li><a href="#">have not</a></li>
+                     </ul>
+                   </span>
+
+                   <p>completed work so far:</p>
+
+                   <textarea class="form-control work-completed" rows="3" placeholder="Please explain work you've completed so far"></textarea>
+
+                   <div class="form-group attach-assignments">
+                     <label for="exampleInputFile">Attach your work or assignment sheets</label>
+                     <input type="file" id="exampleInputFile">
+                   </div>
+
+                   <p>And I'd like help with:</p>
+
+                   <textarea class="form-control" rows="3" placeholder="Please explain what you'd like help with"></textarea>
+
+                   <p class="margin-top">I promise that I understand I’m requesting tutoring and will not ask tutors to do my work for me, and that I will respect the <a href="">Honor Code</a>.</p>
+
+                   <input type="text" class="form-control promise-control" placeholder="Please type 'I promise'">
+
+                   <div class="cta"><a class="btn btn-primary btn-lg" href="#" role="button">Submit request</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div> <!-- /container -->
+    </div>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            $('#example-getting-started').multiselect();
+        });
+    </script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(".js-example-basic-single").select2();
+      });
+    </script>
+    </body>
+</html>
