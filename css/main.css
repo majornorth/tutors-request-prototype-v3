@@ -135,3 +135,31 @@ p {
 .specific-question {
     margin-bottom: 10px;
 }
+
+.deadline-header {
+    display: block;
+}
+
+.deadline-date {
+    display: inline-block;
+    width: 18%;
+}
+
+.timepicker {
+    display: inline-block;
+    width: 15%;
+}
+
+.deadline-checkbox {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.btn.btn-sm {
+    color: #333;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-top: -2px;
+    margin-left: 10px;
+    padding: 7px 10px;
+}

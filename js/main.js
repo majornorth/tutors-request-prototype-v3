@@ -22,6 +22,6 @@ jQuery(document).ready(function() {
   });
 
   function addQuestion(element) {
-    $("<input class='form-control specific-question' rows='2' placeholder='e.g. I&#39;m stuck on problem 2 of the assignment'></input>").insertBefore($(element));
+    $("<input class='form-control specific-question' placeholder='e.g. I&#39;m stuck on problem 2 of the assignment'></input>").insertBefore($(element));
   }
 });
