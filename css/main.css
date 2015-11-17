@@ -119,3 +119,19 @@ p {
 .add-question {
     font-size: 16px;
 }
+
+.selected {
+    background-color: #e0e0e0;
+}
+
+.btn-default:active {
+    background-color: #fff;
+}
+
+.btn-default:hover {
+    background-color: #e0e0e0;
+}
+
+.specific-question {
+    margin-bottom: 10px;
+}

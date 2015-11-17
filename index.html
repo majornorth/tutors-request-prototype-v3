@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
         <script type="text/javascript" src="js/vendor/jquery-1.11.2.min.js"></script>
         <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
 
         <!-- Include the plugin's CSS and JS: -->
         <script type="text/javascript" src="js/vendor/bootstrap-multiselect.js"></script>
@@ -72,10 +73,10 @@
                     <p>I'm in</p>
                     <br />
                     <div class="btn-group btn-group-lg" role="group">
-                      <button type="button" class="btn btn-default">undergrad</button>
-                      <button type="button" class="btn btn-default">grad school</button>
-                      <button type="button" class="btn btn-default">high school</button>
-                      <button type="button" class="btn btn-default">other</button>
+                      <button type="button" class="btn btn-default tab-option">undergrad</button>
+                      <button type="button" class="btn btn-default tab-option">grad school</button>
+                      <button type="button" class="btn btn-default tab-option">high school</button>
+                      <button type="button" class="btn btn-default tab-option">other</button>
                     </div>
                   </div>
 
@@ -83,49 +84,45 @@
                     <p>I need help with</p>
                     <br />
                     <div class="btn-group btn-group-lg" role="group">
-                      <button type="button" class="btn btn-default">homework</button>
-                      <button type="button" class="btn btn-default">take-home test</button>
-                      <button type="button" class="btn btn-default">in-class test</button>
-                      <button type="button" class="btn btn-default">essay</button>
-                      <button type="button" class="btn btn-default">concepts</button>
+                      <button type="button" class="btn btn-default tab-option">homework</button>
+                      <button type="button" class="btn btn-default tab-option">take-home test</button>
+                      <button type="button" class="btn btn-default tab-option">in-class test</button>
+                      <button type="button" class="btn btn-default tab-option">essay</button>
+                      <button type="button" class="btn btn-default tab-option">concepts</button>
                     </div>
                   </div>
-
 
                   <div class="button-group">
                     <p>I'll be online and ready to enter the lesson space during the next</p>
                     <br />
                     <div class="btn-group btn-group-lg" role="group">
-                      <button type="button" class="btn btn-default">30 minutes</button>
-                      <button type="button" class="btn btn-default">2 hours</button>
-                      <button type="button" class="btn btn-default">Tomorrow</button>
-                      <button type="button" class="btn btn-default">I'm flexible</button>
+                      <button type="button" class="btn btn-default tab-option">30 minutes</button>
+                      <button type="button" class="btn btn-default tab-option">2 hours</button>
+                      <button type="button" class="btn btn-default tab-option">Tomorrow</button>
+                      <button type="button" class="btn btn-default tab-option">I'm flexible</button>
                     </div>
                   </div>
 
                   <div>
-                    <p>Subject</p>
 
-                    <input class="form-control" rows="2" value="Advanced Physics"></input>
-
-                    <p class="margin-top">Topic you need help with</p>
+                    <p class="margin-top">Topic you need help with within Advanced Physics</p>
 
                     <input class="form-control" rows="2" placeholder="e.g. Liquids to gases, Algebraic functions, Java methods, etc."></input>
 
-                    <p class="margin-top">Paste in your assignment or describe work you've completed so far</p>
-
-                    <textarea class="form-control" rows="4"></textarea>
-
-                    <div class="form-group attach-assignments">
-                      <label for="exampleInputFile">Attach your work or assignment sheets</label>
-                      <input type="file" id="exampleInputFile">
-                    </div>
-
                     <p class="margin-top">Specific question about your work</p>
 
-                    <input class="form-control" rows="2" placeholder="e.g. I'm stuck on problem 2 of the assignment"></input>
+                    <input class="form-control specific-question" rows="2" placeholder="e.g. I'm stuck on problem 2 of the assignment"></input>
 
                     <button type="button" class="btn btn-link margin-top add-question">Add another question</button>
+                  </div>
+
+                  <p class="margin-top">Paste in your assignment or describe work you've completed so far</p>
+
+                  <textarea class="form-control" rows="4"></textarea>
+
+                  <div class="form-group attach-assignments">
+                    <label for="exampleInputFile">Attach your work or assignment sheets</label>
+                    <input type="file" id="exampleInputFile">
                   </div>
 
                   <div class="cta"><a class="btn btn-primary btn-lg" href="#" role="button">Submit request</a></div>
