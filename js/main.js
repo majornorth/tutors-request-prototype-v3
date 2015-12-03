@@ -30,6 +30,7 @@ jQuery(document).ready(function() {
       var courseTitle = $(".course-title")[0].innerHTML;
       if (setTitle.length !== 0) {
         $(".course-title")[0].innerHTML = setTitle;
+        $(".course-title")[1].innerHTML = setTitle;
       } else {
         console.log("cannot be empty!");
       }
